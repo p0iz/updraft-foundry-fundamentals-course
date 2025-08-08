@@ -1,0 +1,20 @@
+
+# Third-party libs
+**/lib
+
+# Compiler files
+cache/
+out/
+
+.gas-snapshot
+
+# Ignores development broadcast logs
+!/broadcast
+**/broadcast/**/*.json
+**/broadcast/**/dry-run/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
